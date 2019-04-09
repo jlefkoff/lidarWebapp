@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome to Firebase Hosting</title>
 
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+  <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBvtdyMPRK4NOx89AdgYzh3awHG7cDfO7s",
+    authDomain: "lidarspeedometer.firebaseapp.com",
+    databaseURL: "https://lidarspeedometer.firebaseio.com",
+    projectId: "lidarspeedometer",
+    storageBucket: "lidarspeedometer.appspot.com",
+    messagingSenderId: "222547468234"
+  };
+  firebase.initializeApp(config);
+  </script>
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/5.9.3/firebase-app.js"></script>
     <!-- include only the Firebase features as you need -->
@@ -39,19 +52,7 @@
     </div>
     <p id="load">Firebase SDK Loading&hellip;</p>
 
-    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
-  <script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyBvtdyMPRK4NOx89AdgYzh3awHG7cDfO7s",
-    authDomain: "lidarspeedometer.firebaseapp.com",
-    databaseURL: "https://lidarspeedometer.firebaseio.com",
-    projectId: "lidarspeedometer",
-    storageBucket: "lidarspeedometer.appspot.com",
-    messagingSenderId: "222547468234"
-  };
-  firebase.initializeApp(config);
-  </script>
+    
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
